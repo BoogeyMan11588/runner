@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'Vibe Inc/BoogeyMan'
+author 'Weistek'
 description 'Drug Running Script for QBCore'
 version '1.0.0'
 
@@ -16,11 +16,6 @@ client_scripts {
 
 server_scripts {
     'server/main.lua'
-}
-
-dependencies {
-    'qb-core',
-    'qb-target'
 }
 
 lua54 'yes'
